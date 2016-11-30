@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/launcher_background.png",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/mipmap-xhdpi/launcher_background.png"
+    }
+]
