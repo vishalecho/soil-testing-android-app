@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Farmss</string>
+
+    <!--String related to Description-->
+    <string name="Launcher_desc">LauncherBackgroundImage</string>
+    <string name="Welcome_msg">Welcome You !</string>
+    <string name="Welcome_msg_mr"> “फार्म्स”आपले स्वागत करीत आहे !</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="ForgetPassword">Forget Password ?</string>
+    <string name="Register">Register Here</string>
+</resources>

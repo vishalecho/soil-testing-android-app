@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="state">
+        <item>Maharashtra</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -25,13 +28,15 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="btnBackgroundColor">#2DA958</color>
+    <color name="btnTextColor">#FFFFFF</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#4CAF50</color>
+    <color name="colorBackground">#E3F4FD</color>
     <color name="colorDivider">#BDBDBD</color>
-    <color name="colorIcons">#FFFFFF</color>
-    <color name="colorPrimary">#36AD86</color>
-    <color name="colorPrimaryDark">#2DA958</color>
+    <color name="colorPrimary">#3D9641</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
     <color name="colorPrimaryLight">#C8E6C9</color>
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#757575</color>
@@ -81,10 +86,13 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="spinnerBackgroundColor">#5c9790</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="textColor">#00796B</color>
+    <color name="textColorHint">#00796B</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="contentInsetStartWithNavigation"/><attr format="dimension" name="contentInsetEndWithActions"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -276,7 +284,23 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Acre">एकर</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="Close">रद्द करा </string>
+    <string name="EnterPlotSize">माती परिक्षण किती जागेसाठी केले आहे ?</string>
+    <string name="ForgetPassword">पासवर्ड विसरला?</string>
+    <string name="Guntha">गुंठे</string>
     <string name="Launcher_desc">LauncherBackgroundImage</string>
+    <string name="Login">लॉगिन</string>
+    <string name="LoginActivityLable">लॉगीन/नोंदणी करा</string>
+    <string name="Mobile"> मोबाइल नंबर</string>
+    <string name="Name">नाव</string>
+    <string name="Ok">जतन करा </string>
+    <string name="Password">पासवर्ड</string>
+    <string name="PlotsizeActivityLable">प्लॉट आकार जोडा</string>
+    <string name="Register">फार्म्स नोंद  आहे का? आत्ताच नोंदणी करा !</string>
+    <string name="RegisterActivityLable">माहिती भरा</string>
+    <string name="SoilTesting">माती परीक्षण</string>
     <string name="Welcome_msg">Welcome You !</string>
     <string name="Welcome_msg_mr"> “फार्म्स”आपले स्वागत करीत आहे !</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -310,12 +334,21 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="acre">Acre</string>
     <string name="app_name">Farmss</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="guntha">Guntha</string>
+    <string name="pincode">पिन कोड</string>
     <string name="search_menu_title">Search</string>
+    <string name="select_District">जिल्हा निवडा  </string>
+    <string name="select_State">राज्य निवडा</string>
+    <string name="select_Tehsil">तालुका निवडा </string>
+    <string name="select_village">गाव निवडा </string>
+    <string name="signup">नोंदणी करा</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="terms">I Agree with Terms &amp; Condition</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -324,7 +357,13 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

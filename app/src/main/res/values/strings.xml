@@ -5,4 +5,37 @@
     <string name="Launcher_desc">LauncherBackgroundImage</string>
     <string name="Welcome_msg">Welcome You !</string>
     <string name="Welcome_msg_mr"> “फार्म्स”आपले स्वागत करीत आहे !</string>
+    <string name="Mobile"> मोबाइल नंबर</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="Login">लॉगिन</string>
+    <string name="ForgetPassword">पासवर्ड विसरला?</string>
+    <string name="Register">फार्म्स नोंद  आहे का? आत्ताच नोंदणी करा !</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="Ok">जतन करा </string>
+    <string name="Close">रद्द करा </string>
+    <string name="Name">नाव</string>
+    <string name="select_State">राज्य निवडा</string>
+    <string name="select_District">जिल्हा निवडा  </string>
+    <string name="select_Tehsil">तालुका निवडा </string>
+    <string name="select_village">गाव निवडा </string>
+    <string name="pincode">पिन कोड</string>
+    <string name="signup">नोंदणी करा</string>
+    <string name="terms">I Agree with Terms &amp; Condition</string>
+    <string name="EnterPlotSize">माती परिक्षण किती जागेसाठी केले आहे ?</string>
+    <string name="Guntha">गुंठे</string>
+    <string name="guntha">Guntha</string>
+    <string name="Acre">एकर</string>
+    <string name="acre">Acre</string>
+    <string name="SoilTesting">माती परीक्षण</string>
+
+    <!--String related to Activity lable-->
+    <string name="LoginActivityLable">लॉगीन/नोंदणी करा</string>
+    <string name="RegisterActivityLable">माहिती भरा</string>
+    <string name="PlotsizeActivityLable">प्लॉट आकार जोडा</string>
+
+    <!--String related to String-Array-->
+    <string-array name="state">
+        <item>Maharashtra</item>
+    </string-array>
+
 </resources>

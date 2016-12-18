@@ -7,8 +7,160 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endColumn": 60,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 116,
+                    "endColumn": 65,
+                    "endOffset": 177
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 65,
+                        "endOffset": 163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 182,
+                    "endColumn": 39,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 39,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 41,
+                    "endOffset": 259
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 41,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 264,
+                    "endColumn": 45,
+                    "endOffset": 305
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 45,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 310,
+                    "endColumn": 50,
+                    "endOffset": 356
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 50,
+                        "endOffset": 533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 361,
+                    "endColumn": 53,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 53,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 75,
+                    "endOffset": 486
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 75,
+                        "endOffset": 293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 491,
                     "endColumn": 103,
-                    "endOffset": 154
+                    "endOffset": 590
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -23,11 +175,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 159,
+                    "startOffset": 595,
                     "endColumn": 107,
-                    "endOffset": 262
+                    "endOffset": 698
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -42,11 +194,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 267,
+                    "startOffset": 703,
                     "endColumn": 122,
-                    "endOffset": 385
+                    "endOffset": 821
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -61,11 +213,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 390,
+                    "startOffset": 826,
                     "endColumn": 99,
-                    "endOffset": 485
+                    "endOffset": 921
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -80,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 490,
+                    "startOffset": 926,
                     "endColumn": 107,
-                    "endOffset": 593
+                    "endOffset": 1029
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -99,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 598,
+                    "startOffset": 1034,
                     "endColumn": 83,
-                    "endOffset": 677
+                    "endOffset": 1113
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -118,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 682,
+                    "startOffset": 1118,
                     "endColumn": 99,
-                    "endOffset": 777
+                    "endOffset": 1213
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -137,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 782,
+                    "startOffset": 1218,
                     "endColumn": 114,
-                    "endOffset": 892
+                    "endOffset": 1328
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -156,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 897,
+                    "startOffset": 1333,
                     "endColumn": 76,
-                    "endOffset": 969
+                    "endOffset": 1405
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -175,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 974,
+                    "startOffset": 1410,
                     "endColumn": 75,
-                    "endOffset": 1045
+                    "endOffset": 1481
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -194,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1050,
+                    "startOffset": 1486,
                     "endColumn": 81,
-                    "endOffset": 1127
+                    "endOffset": 1563
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -213,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1132,
+                    "startOffset": 1568,
                     "endColumn": 102,
-                    "endOffset": 1230
+                    "endOffset": 1666
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -232,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1235,
+                    "startOffset": 1671,
                     "endColumn": 103,
-                    "endOffset": 1334
+                    "endOffset": 1770
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -251,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1339,
+                    "startOffset": 1775,
                     "endColumn": 98,
-                    "endOffset": 1433
+                    "endOffset": 1869
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -270,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1438,
+                    "startOffset": 1874,
                     "endColumn": 104,
-                    "endOffset": 1538
+                    "endOffset": 1974
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -289,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1543,
+                    "startOffset": 1979,
                     "endColumn": 102,
-                    "endOffset": 1641
+                    "endOffset": 2077
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -308,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1646,
+                    "startOffset": 2082,
                     "endColumn": 103,
-                    "endOffset": 1745
+                    "endOffset": 2181
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -327,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1750,
+                    "startOffset": 2186,
                     "endColumn": 118,
-                    "endOffset": 1864
+                    "endOffset": 2300
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -346,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1869,
+                    "startOffset": 2305,
                     "endColumn": 99,
-                    "endOffset": 1964
+                    "endOffset": 2400
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -365,11 +517,30 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1969,
+                    "startOffset": 2405,
+                    "endColumn": 43,
+                    "endOffset": 2444
+                },
+                "from": {
+                    "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/values-en-rIN/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 43,
+                        "endOffset": 55
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2449,
                     "endColumn": 81,
-                    "endOffset": 2046
+                    "endOffset": 2526
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",
@@ -384,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2051,
+                    "startOffset": 2531,
                     "endColumn": 100,
-                    "endOffset": 2147
+                    "endOffset": 2627
                 },
                 "from": {
                     "file": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-en-rIN/values-en-rIN.xml",

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farmss</string>
+
+    <!--String related to Description-->
+    <string name="Launcher_desc">LauncherBackgroundImage</string>
+    <string name="Welcome_msg">Welcome You !</string>
+    <string name="Welcome_msg_mr"> “फार्म्स”आपले स्वागत करीत आहे !</string>
+    <string name="Mobile">मोबाइल नंबर</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="Login">लॉगिन</string>
+    <string name="ForgetPassword">पासवर्ड विसरला?</string>
+    <string name="Register">सदस्य नाही ? आत्ताच नोंदणी करा !</string>
+</resources>

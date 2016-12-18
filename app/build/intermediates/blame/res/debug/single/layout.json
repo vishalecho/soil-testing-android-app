@@ -72,6 +72,10 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_menu.xml"
     },
     {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/activity_plotsize.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/layout/activity_plotsize.xml"
+    },
+    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_alert_dialog_material.xml"
     },
@@ -140,12 +144,12 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
@@ -190,6 +194,10 @@
     {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/layout/activity_register.xml"
     },
     {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",

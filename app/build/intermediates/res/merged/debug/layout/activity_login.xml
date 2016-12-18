@@ -1,12 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:weightSum="1"
     tools:context="com.imcgeek.android.farmss.activities.LoginActivity">
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+        <EditText
+            android:id="@+id/ET_mobileLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:maxLength="10"
+            android:lines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="@string/Mobile"
+            android:drawableLeft="@drawable/ic_phone"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColorHint"/>
 
-</RelativeLayout>
+        <EditText
+            android:id="@+id/ET_passwordLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="@string/Password"
+            android:maxLength="8"
+            android:drawableLeft="@drawable/ic_password"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColorHint"/>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/Btn_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/btnBackgroundColor"
+            android:text="@string/Login"
+            android:elevation="4dp"
+            android:textSize="20sp"
+            android:textColor="@color/btnTextColor"
+            android:onClick="OnButtonClick"/>
+
+        <!-- Link to Forget Password -->
+        <Button
+            android:id="@+id/Btn_ForgetPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/ForgetPassword"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:onClick="OnButtonClick"
+            />
+
+        <!-- Link to Registration Screen -->
+        <Button
+            android:id="@+id/Btn_Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/textColor"
+            android:text="@string/Register"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:onClick="OnButtonClick"
+            />
+
+        <!-- Link to Change Language -->
+        <Button
+            android:id="@+id/Btn_ChangeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/textColor"
+            android:text="@string/ChangeLanguage"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:onClick="OnButtonClick"
+            />
+    </LinearLayout>
+</LinearLayout>
+

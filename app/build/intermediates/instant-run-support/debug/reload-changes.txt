@@ -1,0 +1,7 @@
+CHANGED,/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$string$override.class
+CHANGED,/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$string$override.class
+CHANGED,/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/imcgeek/android/farmss/R$styleable$override.class
+CHANGED,/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/imcgeek/android/farmss/activities/PlotsizeActivity$override.class
+CHANGED,/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/imcgeek/android/farmss/R$style$override.class
+CHANGED,/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/imcgeek/android/farmss/R$string$override.class
