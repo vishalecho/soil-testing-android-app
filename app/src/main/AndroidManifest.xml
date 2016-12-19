@@ -41,7 +41,19 @@
             android:label="@string/RegisterActivityLable" />
         <activity
             android:name=".activities.PlotsizeActivity"
-            android:label="@string/PlotsizeActivityLable"/>
+            android:label="@string/PlotsizeActivityLable" />
+        <activity
+            android:name=".activities.SoiltestingActivity"
+            android:label="@string/SoiltestingActivityLable" />
+        <activity
+            android:name=".activities.SoilresultActivity"
+            android:label="@string/SoilresultActivityLable" />
+        <activity
+            android:name=".activities.CropSelectionActivity"
+            android:label="@string/CropSelectionActivityLable" />
+        <activity
+            android:name=".activities.RecommendedFurtilizerActivity"
+            android:label="@string/RecommendedFurtilizerActivityLable"/>
     </application>
 
 </manifest>

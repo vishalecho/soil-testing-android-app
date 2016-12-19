@@ -124,6 +124,10 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ok.png",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/drawable-hdpi/ok.png"
+    },
+    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_longpressed_holo.9.png",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },

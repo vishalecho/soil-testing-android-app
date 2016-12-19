@@ -1,10 +1,12 @@
 package com.imcgeek.android.farmss.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -39,5 +41,11 @@ public class PlotsizeActivity extends AppCompatActivity {
         // Finally, set the newly created TextView as ActionBar custom view
         ab.setCustomView(tv);
 
+    }
+    public void OnButtonClick(View view) {
+        if (view.getId() == R.id.GoForSoilTesting) {
+            Intent i = new Intent(PlotsizeActivity.this,SoiltestingActivity.class);
+            startActivity(i);
+        }
     }
 }

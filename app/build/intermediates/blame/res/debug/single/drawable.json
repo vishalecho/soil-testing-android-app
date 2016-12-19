@@ -96,6 +96,10 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/drawable/design_ic_visibility.xml"
     },
     {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/drawable/circlebuttonstyle.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/drawable/circlebuttonstyle.xml"
+    },
+    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/drawable/design_fab_background.xml"
     },

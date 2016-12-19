@@ -26,12 +26,39 @@
     <string name="guntha">Guntha</string>
     <string name="Acre">एकर</string>
     <string name="acre">Acre</string>
+    <string name="pHTest">pH </string>
+    <string name="NTest">N </string>
+    <string name="PTest">P </string>
+    <string name="KTest">K </string>
+    <string name="pH">pH :</string>
+    <string name="N">N :</string>
+    <string name="P">P :</string>
+    <string name="K">K :</string>
+    <string name="Select_Crop">पिके निवडा</string>
     <string name="SoilTesting">माती परीक्षण</string>
+    <string name="FurtilizerRecommendation">खालिलप्रमाणे खते वापरा</string>
+    <string name="Unit_Furtilizer">कि.</string>
+    <string name="Recommendation_for_N">N : युरिया </string>
+    <string name="Recommendation_for_P">P : पोटॅश </string>
+    <string name="Recommendation_for_K">K : सुपर फॉस्फेट </string>
+    <string name="Done">Done</string>
+
+    <!--SelectCropActivity-->
+    <string name="Cabbage">कोबी</string>
+    <string name="Onion">कांदा</string>
+    <string name="Tomato">टोमॅटो</string>
+    <string name="Chilli">मिरची</string>
+    <string name="Grapes">द्राक्ष</string>
+    <string name="Other_Crops">इतर</string>
 
     <!--String related to Activity lable-->
     <string name="LoginActivityLable">लॉगीन/नोंदणी करा</string>
     <string name="RegisterActivityLable">माहिती भरा</string>
     <string name="PlotsizeActivityLable">प्लॉट आकार जोडा</string>
+    <string name="SoiltestingActivityLable">माती परीक्षण</string>
+    <string name="SoilresultActivityLable">माती परिक्षण निकाल</string>
+    <string name="CropSelectionActivityLable">पिके निवडा</string>
+    <string name="RecommendedFurtilizerActivityLable">सुचवलेली खते</string>
 
     <!--String related to String-Array-->
     <string-array name="state">

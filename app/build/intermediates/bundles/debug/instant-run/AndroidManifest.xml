@@ -49,6 +49,18 @@
         <activity
             android:name="com.imcgeek.android.farmss.activities.PlotsizeActivity"
             android:label="@string/PlotsizeActivityLable" />
+        <activity
+            android:name="com.imcgeek.android.farmss.activities.SoiltestingActivity"
+            android:label="@string/SoiltestingActivityLable" />
+        <activity
+            android:name="com.imcgeek.android.farmss.activities.SoilresultActivity"
+            android:label="@string/SoilresultActivityLable" />
+        <activity
+            android:name="com.imcgeek.android.farmss.activities.CropSelectionActivity"
+            android:label="@string/CropSelectionActivityLable" />
+        <activity
+            android:name="com.imcgeek.android.farmss.activities.RecommendedFurtilizerActivity"
+            android:label="@string/RecommendedFurtilizerActivityLable" />
     </application>
 
 </manifest>

@@ -52,12 +52,12 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/select_dialog_item_material.xml"
-    },
-    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -96,6 +96,10 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_item_subheader.xml"
     },
     {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/activity_crop_selection.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/layout/activity_crop_selection.xml"
+    },
+    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_close_item_material.xml"
     },
@@ -120,12 +124,12 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/activity_launcher.xml",
@@ -184,6 +188,10 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple.xml"
     },
     {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/activity_soiltesting.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/layout/activity_soiltesting.xml"
+    },
+    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_menu_item_action_area.xml"
     },
@@ -212,11 +220,19 @@
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_item.xml"
     },
     {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/activity_soilresult.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/layout/activity_soilresult.xml"
+    },
+    {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/merged/debug/layout/activity_recommended_furtilizer.xml",
+        "source": "/home/imcgeek/AndroidStudioProjects/Farmss/app/src/main/res/layout/activity_recommended_furtilizer.xml"
     }
 ]
