@@ -20,7 +20,7 @@
     <string name="select_village">गाव निवडा </string>
     <string name="pincode">पिन कोड</string>
     <string name="signup">नोंदणी करा</string>
-    <string name="terms">I Agree with Terms &amp; Condition</string>
+    <string name="terms">I Agree with Terms &amp; Condition .</string>
     <string name="EnterPlotSize">माती परिक्षण किती जागेसाठी केले आहे ?</string>
     <string name="Guntha">गुंठे</string>
     <string name="guntha">Guntha</string>
@@ -42,6 +42,15 @@
     <string name="Recommendation_for_P">P : पोटॅश </string>
     <string name="Recommendation_for_K">K : सुपर फॉस्फेट </string>
     <string name="Done">Done</string>
+    <string name="EnterValidMob">वैध मोबाइल नंबर टाका</string>
+    <string name="EnterValidPass">वैध संकेतशब्द टाका</string>
+    <string name="EnterValidPlotsize">वैध प्लॉट आकार टाका</string>
+    <string name="EnterName">नाव टाका</string>
+    <string name="Alphabetic_Only">फक्त मूळाक्षरे टाका</string>
+    <string name="EnterMobNo">मोबाइल नंबर टाका</string>
+    <string name="EnterPass">पासवर्ड टाका </string>
+    <string name="Enter_Valid_Pincode">वैध पिनकोड टाका</string>
+    <string name="EnterVillage">गांव टाका</string>
 
     <!--SelectCropActivity-->
     <string name="Cabbage">कोबी</string>
@@ -59,10 +68,53 @@
     <string name="SoilresultActivityLable">माती परिक्षण निकाल</string>
     <string name="CropSelectionActivityLable">पिके निवडा</string>
     <string name="RecommendedFurtilizerActivityLable">सुचवलेली खते</string>
+    <string name="Select_District">जिल्हा निवडा</string>
+    <string name="Select_Tehsil">तालुका निवडा</string>
+    <string name="Select_Village">गांव निवडा</string>
+    <string name="Village">गांव</string>
 
     <!--String related to String-Array-->
     <string-array name="state">
         <item>Maharashtra</item>
+    </string-array>
+    <string-array name="district">
+        <item> Select District</item>
+        <item> Ahmednagar </item>
+        <item> Akola </item>
+        <item> Amravati</item>
+        <item> Aurangabad</item>
+        <item> Beed</item>
+        <item> Bhandara</item>
+        <item> Buldhana</item>
+        <item> Chandrapur</item>
+        <item> Dhule </item>
+        <item> Gadchiroli</item>
+        <item> Gondia</item>
+        <item> Hingoli</item>
+        <item> Jalgaon</item>
+        <item> Jalna</item>
+        <item> Kolhapur</item>
+        <item> Latur</item>
+        <item> Mumbai City</item>
+        <item> Mumbai Suburban</item>
+        <item> Nagpur</item>
+        <item> Nanded</item>
+        <item> Nandurbar</item>
+        <item> Nashik</item>
+        <item> Osmanabad</item>
+        <item> Parbhani</item>
+        <item> Pune</item>
+        <item> Raigad</item>
+        <item> Ratnagiri</item>
+        <item> Sangli</item>
+        <item> Satara</item>
+        <item> Sindhudurg</item>
+        <item> Solapur</item>
+        <item> Thane</item>
+        <item> Wardha</item>
+        <item> Washim</item>
+        <item> Yavatmal</item>
+        <item> Palghar</item>
     </string-array>
 
 </resources>

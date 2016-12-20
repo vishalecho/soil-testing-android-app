@@ -4,7 +4,7 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="2878059949447"
+    timestamp="10429797705967"
     token="5840239854501393945" >
 
     <task
@@ -24,19 +24,24 @@
         location="/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="2469860167591" >
+    <build timestamp="9033417075065" >
         <artifact
             location="/home/imcgeek/AndroidStudioProjects/Farmss/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="9996547004298" >
+        <artifact
+            location="/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
     <build
-        timestamp="2659545172532"
+        timestamp="10274232131240"
         verifier="COMPATIBLE" >
         <artifact
-            location="/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/builds/debug/2659545172532/classes.dex"
+            location="/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/builds/debug/10274232131240/classes.dex"
             type="RELOAD_DEX" />
     </build>
-    <build timestamp="2878059949447" >
+    <build timestamp="10429797705967" >
         <artifact
             location="/home/imcgeek/AndroidStudioProjects/Farmss/app/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />

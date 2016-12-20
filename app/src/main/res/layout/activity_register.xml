@@ -57,6 +57,8 @@
             android:id="@+id/SelectState"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="@drawable/stylespinner"
+            android:foregroundTint="@color/btnTextColor"
+            android:clickable="false"
             android:prompt="@string/select_State"
             android:spinnerMode="dialog"
             android:entries="@array/state">
@@ -67,6 +69,8 @@
             android:id="@+id/SelectDistrict"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="@drawable/stylespinner"
+            android:foregroundTint="@color/btnTextColor"
+            android:entries="@array/district"
             android:prompt="@string/select_District"
             android:spinnerMode="dialog">
         </Spinner>
@@ -76,18 +80,23 @@
             android:id="@+id/SelectTehsil"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="@drawable/stylespinner"
+            android:foregroundTint="@color/btnTextColor"
             android:prompt="@string/select_Tehsil"
             android:spinnerMode="dialog">
         </Spinner>
-        <Spinner
+        <EditText
+            android:id="@+id/ET_Village"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/SelectVillage"
             android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:background="@drawable/stylespinner"
-            android:prompt="@string/select_village"
-            android:spinnerMode="dialog">
-        </Spinner>
+            android:inputType="text"
+            android:maxLength="6"
+            android:lines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="@string/Village"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColorHint"/>
         <EditText
             android:id="@+id/ET_Pincode"
             android:layout_width="match_parent"
@@ -107,8 +116,7 @@
             android:buttonTint="@color/btnBackgroundColor"
             android:layout_height="wrap_content"
             android:text="@string/terms"
-            android:textColor="@color/colorPrimaryText"
-            android:onClick="onChecboxClicked"/>
+            android:textColor="@color/colorPrimaryText"/>
         <Button
             android:id="@+id/Btn_SignUp"
             android:layout_width="match_parent"

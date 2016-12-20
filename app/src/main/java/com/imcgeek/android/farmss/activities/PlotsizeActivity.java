@@ -7,18 +7,30 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.imcgeek.android.farmss.R;
 
+import java.util.HashMap;
+
 public class PlotsizeActivity extends AppCompatActivity {
 
+    RadioGroup radioGroup;
+    RadioButton radioButton;
+    EditText et_plotSize;
+    int selected_id;
+    HashMap<String,String> convert = new HashMap<String, String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plotsize);
+        
+        et_plotSize = (EditText)findViewById(R.id.PlotSize);
 
         /**
          * Setup the ActionBar title with center gravity
@@ -44,8 +56,22 @@ public class PlotsizeActivity extends AppCompatActivity {
     }
     public void OnButtonClick(View view) {
         if (view.getId() == R.id.GoForSoilTesting) {
-            Intent i = new Intent(PlotsizeActivity.this,SoiltestingActivity.class);
-            startActivity(i);
+            if (Validation()){
+                Intent i = new Intent(PlotsizeActivity.this,SoiltestingActivity.class);
+                startActivity(i); 
+            }
         }
+    }
+
+    private boolean Validation() {
+        boolean valid=true;
+        if(et_plotSize.getText().toString().length()==0){
+            et_plotSize.setBackgroundResource(R.drawable.edittextstyle);
+            et_plotSize.setError(getString(R.string.EnterValidPlotsize));
+            valid = false;
+        }else{
+            et_plotSize.setError(null);
+        }
+        return valid;
     }
 }

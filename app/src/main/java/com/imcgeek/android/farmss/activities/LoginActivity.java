@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -18,10 +19,14 @@ import com.imcgeek.android.farmss.R;
 
 public class LoginActivity extends AppCompatActivity {
 
+    EditText etMobile_Login,etpassword_Login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        etMobile_Login = (EditText)findViewById(R.id.ET_mobileLogin);
+        etpassword_Login = (EditText)findViewById(R.id.ET_passwordLogin);
 
         /**
          * Setup the ActionBar title with center gravity
@@ -47,20 +52,39 @@ public class LoginActivity extends AppCompatActivity {
 
     public void OnButtonClick(View view){
         if (view.getId()==R.id.Btn_Login){
-//            if(Validate()){
+            if(ValidateLoginForm()){
 //                FindUser();
-//            }else {
-//                editTextMobile.setText("");
-//                editTextPassword.setText("");
-//                //Toast t = Toast.makeText(LoginActivity.this,getString(R.string.EnterMobPass),Toast.LENGTH_SHORT);
-//                //t.show();
-//            }
-            Intent i = new Intent(LoginActivity.this,PlotsizeActivity.class);
-            startActivity(i);
+                Intent i = new Intent(LoginActivity.this,PlotsizeActivity.class);
+                startActivity(i);
+            }else {
+                etMobile_Login.setText("");
+                etpassword_Login.setText("");
+                //Toast t = Toast.makeText(LoginActivity.this,getString(R.string.EnterMobPass),Toast.LENGTH_SHORT);
+                //t.show();
+            }
+
         }
         if (view.getId()==R.id.Btn_Register){
             Intent i = new Intent(LoginActivity.this,RegisterActivity.class);
             startActivity(i);
         }
+    }
+
+    private boolean ValidateLoginForm() {
+        boolean valid=true;
+        if(etMobile_Login.getText().toString().trim().length()<10){
+            etMobile_Login.setError(getString(R.string.EnterValidMob));
+            valid = false;
+        }else{
+            etMobile_Login.setError(null);
+        }
+
+        if(etpassword_Login.getText().toString().trim().length()==0){
+            etpassword_Login.setError(getString(R.string.EnterValidPass));
+            valid = false;
+        }else{
+            etpassword_Login.setError(null);
+        }
+        return valid;
     }
 }
